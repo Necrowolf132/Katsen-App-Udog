@@ -1,0 +1,43 @@
+page-track-walk {
+
+	#map {
+
+		width : 100%;
+		height : 50%;
+	}
+
+	.alert-message {
+		display : flex;
+		justify-content : space-evenly;
+	}
+
+	 ion-scroll[scrollX] {
+    	white-space: nowrap;
+    	height: 120px;
+    	overflow: hidden;
+
+    .scroll-item {
+      display: inline-block;
+    }
+
+    ion-avatar img{
+      margin: 10px;
+    }
+  }
+
+  ion-scroll[scroll-avatar]{
+    height: 60px;
+  }
+
+  /* Hide ion-content scrollbar */
+  ::-webkit-scrollbar{
+    display:none;
+  }
+
+}
+
+ion-modal.inset-modal {
+	padding : 40vh 40vw;
+	height : 50%;
+	border-radius : 50px;
+}

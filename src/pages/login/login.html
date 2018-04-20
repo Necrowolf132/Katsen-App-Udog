@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-row>
+		<img src="assets/imgs/icon.png" height="250" [ngStyle]="{'margin': 'auto'}"/>
+	</ion-row>
+
+
+	<!--<ion-row padding>
+		<ion-col col-6 text-right>
+				<button ion-button color="facebook" (click)="facebookLogin()" round>Facebook</button>
+		</ion-col>
+		<ion-col col-6 text-left>
+				<button ion-button color="primary" (click)="googleLogin()" round>Google</button>
+		</ion-col>
+
+	</ion-row>-->
+
+	<!--<ion-row padding> 
+		<button large ion-button color="orange" (click)="register()" block round> Register With Email </button>
+
+	</ion-row>-->
+
+	<ion-row padding> 
+		<button large ion-button color="orange" (click)="register()" block round> Register</button>
+
+	</ion-row>
+
+	<!--
+	<ion-row padding>
+		<button large ion-button color="facebook" block round (click)="facebookLogin()"> Continue with Facebook </button>
+	</ion-row>
+	
+	<ion-row padding>
+		<button large ion-button color="primary" (click)="googleLogin()" block round> Continue with Google </button>
+	</ion-row>
+-->
+
+	<p text-center>
+		<span class="gray">Already Have an Account?</span> 
+		<span (click)="login()"> Log In</span>
+	</p>
+
+</ion-content>

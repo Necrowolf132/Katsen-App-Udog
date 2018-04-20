@@ -1,0 +1,41 @@
+<!--
+  Generated template for the VideocallPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>videocall</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-view class="app-tab" hide-nav-bar="true" view-title="Support">
+
+
+<ion-content padding>
+
+        <h3 class="tab-header-text">Video Call</h3>
+        <div id="call-connected">Connected</div>
+
+        <div id="controls">
+            <div id="preview" style="float:left;">
+                <div id="local-media"></div>
+                <button id="button-preview" style="margin-left:40px;">Preview My Camera</button>
+            </div>
+            <div id="call-controls" class="call-button-div">
+                <i id="button-call" class="icon ion-ios-telephone-outline call-buttons" style="color:green;"></i>
+                <i id="button-call-end" class="icon ion-ios-telephone-outline call-buttons" style="color:red; display:none;"></i>
+            </div>
+        </div>
+        <div id="spin-wrapper"><ion-spinner name="circles"></ion-spinner></div>
+
+        <div id="remote-media">
+            <div id="video-overlay">Walker</div>
+        </div>
+
+</ion-content>
+
+</ion-view>

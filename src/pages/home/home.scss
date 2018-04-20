@@ -1,0 +1,30 @@
+page-home {
+
+	.scroll {
+		height : 100%
+	}
+
+	#map {
+
+		width : 100%;
+		height : 100%;
+	}
+
+	#logo{
+		align-items : center;
+		display : flex;
+		justify-content: center;
+
+	}
+
+	#markerLayer img {
+        border: 2px solid yellow !important;
+        width: 30 !important;
+        height: 30 !important;
+        border-radius: 5px;
+      }
+
+
+	
+}
+

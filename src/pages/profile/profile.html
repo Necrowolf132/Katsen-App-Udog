@@ -1,0 +1,96 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      My Profile
+    </ion-title>
+
+    <ion-buttons end>
+
+      <button ion-button icon-only (click)="settings()">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="profile-container" padding>
+  <ion-list>
+    <img src="https://images.unsplash.com/photo-1508554291109-58244036f52e?auto=format&fit=crop&w=934&q=8" class="profile-image" />
+    <p text-center>
+      <span class="name">Jane Doe</span>
+      <br/>
+      <span class="email">jane@example.com</span>
+    </p>
+  </ion-list>
+  </div>
+
+<!--
+  <ion-row [ngStyle]="{'background-color': '#F2F2F2'}" padding>
+      <ion-col text-center no-padding col-3>
+        <img src="assets/imgs/walker-icon.png" width="35px" />
+      </ion-col>
+      <ion-col text-left no-padding col-7>
+        <p>Become a Walker</p>
+      </ion-col>
+      <ion-col text-right no-padding col-2>
+        <img src="assets/imgs/plus-icon.png" width="35px" />
+      </ion-col>
+  </ion-row>
+-->
+
+    <ion-row [ngStyle]="{'background-color': '#FFFFFF'}" padding>
+
+      <ion-col text-center padding col-4>
+        <ion-row>
+          <ion-col col-12>
+              <span class="text-bold stats-num">1</span>
+          </ion-col>
+          <ion-col col-12>
+            <span class="brown stats-label">My Pets</span>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+
+      <ion-col text-left padding col-8 [ngStyle]="{'border-left': '1px solid #EDEDED'}">
+        <ion-row>
+          <ion-col col-12>
+            <span class="text-bold stats-num">2</span>
+          </ion-col>
+          <ion-col col-12>
+            <span class="gray stats-label">Appointments</span>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row [ngStyle]="{'background-color': '#F2F2F2'}" padding>
+      <ion-col text-center no-padding col-3>
+        <img src="assets/imgs/pet-icon.png" height="40px" />
+      </ion-col>
+      <ion-col text-left no-padding col-7>
+        <p>Add a pet</p>
+      </ion-col>
+      <ion-col text-right no-padding col-2>
+        <div tappable (click)="addPet()">
+          <img src="assets/imgs/plus-icon.png" width="35px"/>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row [ngStyle]="{'background-color': '#ffffff'}" padding>
+      <ion-col text-center no-padding col-3>
+        <img src="assets/imgs/snowball.png" width="90px" class="pet-pic"/>
+      </ion-col>
+      <ion-col text-left no-padding col-6>
+        <p>Snowball<br>
+        <span class="last-walk">Last walk Dec 3, 2016</span>
+      </p>
+      </ion-col>
+      <ion-col text-right no-padding col-3>
+        <p>5 Walks</p>
+      </ion-col>
+    </ion-row>
+
+</ion-content>

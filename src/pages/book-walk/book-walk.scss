@@ -1,0 +1,53 @@
+page-book-walk {
+
+   /*
+   .item-md .radio-md input:checked + .radio-content{
+         color:yellow;
+   }
+   */
+
+}
+
+/*
+#pet {
+	position : absolute;
+	left : 50%;
+	top : 50%;
+	margin-left : -120px;
+	margin-top : -120px;
+},
+*/
+
+.profile1-image {
+   height: 120px;
+   width: 120px;
+   border-radius: 120px;
+   position: relative;
+   border : 10px solid transparent;
+   box-shadow : 0 0 0pt 1px rgb(243, 190, 22);
+   border-radius : 100%;
+   z-index: 1;
+   top: 0;
+   left : 10%;
+   display : block;
+},
+
+.pet-image {
+   width: 90px;
+   height: 90px;
+   border-radius: 120px;
+   position: absolute;
+   z-index: 2;
+   top: 60px;
+   left: 50%;
+   border : 10px solid transparent;
+   box-shadow : 0 0 0pt 1px rgb(243, 190, 22);
+   border-radius : 100%;
+   margin-left : -15px;
+   margin-top: 15px;
+
+}
+
+#pics {
+      height : 200;
+}

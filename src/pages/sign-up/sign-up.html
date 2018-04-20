@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sign Up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-row>
+		<img src="assets/imgs/icon.png" height="250" [ngStyle]="{'margin': 'auto'}"/>
+	</ion-row>
+
+	<!--
+	<ion-row>
+		<ion-item>
+			<ion-label floating>Name <ion-icon name="person"></ion-icon></ion-label>
+    		<ion-input type="text" [(ngModel)]="name"></ion-input>
+		</ion-item>
+	</ion-row>
+-->
+
+	<ion-row>
+
+		<ion-item>
+
+			<ion-label floating>Phone <ion-icon name="call"></ion-icon></ion-label>
+    		<ion-input type="text" [(ngModel)]="phone"></ion-input>
+
+		</ion-item>
+
+	</ion-row>
+
+	<!--
+	<ion-row>
+		<ion-item>
+			<ion-label floating>Password <ion-icon name="key"></ion-icon></ion-label>
+    		<ion-input type="password" [(ngModel)]="password"></ion-input>
+		</ion-item>
+	</ion-row>
+-->
+
+		<br/>
+		<br/>
+	<ion-row>
+		<button ion-button color="orange" block round (click)="login()"> Login </button>
+	</ion-row>
+	<br/><br/>
+
+	<!--
+	<p text-center><span class="gray">Already Have an Account?</span> <span (click)="login()">Log In</span></p>
+-->
+
+</ion-content>

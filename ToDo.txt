@@ -1,0 +1,90 @@
+ToDo
+
+* ~~Google Maps~~ 
+* ~~Navigate from marker~~ 
+* ~~Render walker from marker~~ 
+* ~~SignUp~~ 
+* Login - ~~Facebook~~ | ~~Google~~ | ~~Email~~ 
+* ~~Book Walk ~~
+* ~~Checkout form ~~
+* ~~Track Walk~~ 
+* ~~Pet Page~~
+* ~~Render Client Profile ~~
+* ~~Tracking page ~~
+* ~~Feed Page~~
+* Video call 
+* ~~Switch to Firebase email login~~
+* ~~Time remaining~~
+* ~~Draw path on google maps~~ 
+
+Whats Left 
+
+* Video calling 
+* Circle markers on google maps 
+* Messaging cleanup 
+
+
+
+
+
+Resources 
+
+https://stackoverflow.com/questions/46547736/twilio-ionic-2-video-js
+https://www.joshmorony.com/beginners-guide-to-getting-started-with-ionic-2/
+https://ionicframework.com/docs/native/stripe/
+https://github.com/zyra/cordova-plugin-stripe
+
+Google Maps API : AIzaSyCftd2hqIQL0fY61Lijweje-VSUL_2HDas
+
+
+https://codepen.io/jvanaert/pen/EBics
+
+https://devdactic.com/ionic-firebase-angularfire/
+
+http://www.joshmorony.com/creating-role-based-authentication-with-passport-in-ionic-2-part-1/
+
+https://www.techinasia.com/talk/9-common-mistakes-ionic-developers
+
+http://masteringionic.com/blog/2017-09-19-adding-a-login-page-to-an-ionic-tabs-project/
+
+https://github.com/javebratt/event-tutorial/tree/master/src/providers/profile
+
+https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc
+
+https://stackoverflow.com/questions/21004335/html5-video-wont-play-in-chrome-only
+
+https://angular-meteor.com/tutorials/whatsapp/meteor/image-upload
+
+https://github.com/codesundar/ionic2-chat-with-firebase/tree/master/src
+
+https://github.com/ionic2blueprints/firebase-chat/blob/master/src/pages/chat-view/chat-view.html
+
+http://www.codingandclimbing.co.uk/blog/ionic-2-base64-encoded-images-rendering-with-unsafe-prefix
+
+https://stackoverflow.com/questions/42598133/ionic-2-dynamic-markers-in-google-maps-with-profile-picture
+
+https://forum.ionicframework.com/t/horizontal-avatars-scroll-inside-a-list/82473/5
+
+http://www.discoversdk.com/blog/building-a-multiple-user-app-on-ionic-2-adding-firebase-storage-unique-todo-list-per-user
+
+
+
+##Bugs 
+
+--navigate away from book walk asap
+
+
+
+-- Flow 
+
+load already active walkers **active_walkers**
+new walker *active_walker*
+
+https://stackoverflow.com/questions/44661361/twilio-programmable-video-js-ionic/44708803#44708803
+
+https://github.com/mhartington/Ionic-Chat/blob/master/www/index.html
+
+
+
+
+

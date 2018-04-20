@@ -1,0 +1,42 @@
+<!--
+  Generated template for the WalkFeedPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>WalkFeed</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-list no-lines>
+      <ion-item *ngFor="let message of messages" [ngSwitch]="message.type">
+        <p *ngSwitchCase=" 'text' ">{{ message.txt}}</p>
+        <img *ngSwitchCase=" 'image' " [src]="sanitizer.bypassSecurityTrustUrl(message.url)"/> 
+      </ion-item>
+    </ion-list>
+
+</ion-content>
+
+<ion-footer padding>
+	<ion-row>
+        <ion-col col-7><input  type="text" [(ngModel)]="newMessage" placeholder="Message..." [ngStyle]="{'width':'90%' }"/></ion-col>
+        <ion-col col-2>
+        <div>
+          <label for="image_upload">
+                <ion-icon name="camera"></ion-icon>
+          </label>
+            
+          <input name="image_upload" type="file" id="image_upload" style="display: none;" (change)="picChosen($event)">
+        </div>
+      </ion-col>
+        <ion-col col-3><button  ion-button (click)="send()">Send</button></ion-col> 
+  </ion-row>
+
+</ion-footer>

@@ -1,0 +1,48 @@
+page-profile {
+
+}
+
+ion-item {
+    font-weight: 11px;
+}
+.profile-container {
+    background-color: #EBBF47;
+}
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-color: gray;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+}
+.title {
+    font-size: 14px;
+}
+.sub-title {
+    font-weight: normal; 
+}
+.name {
+    font-size: 19px;
+}
+.email {
+    color: white;
+}
+.stats-num,
+.stats-label {
+    font-size: 17px;
+}
+
+.pet-pic {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 90px;
+}
+
+.last-walk {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}

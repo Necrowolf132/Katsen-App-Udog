@@ -1,0 +1,24 @@
+page-report {
+
+#map {
+
+		width : 100%;
+		height : 25%;
+	}
+
+
+	ul {
+  padding: 0px;
+ 
+  &.rating li {
+    padding: 5px 10px !important;
+    background-color: black;
+    color: orange;
+ 
+    ion-icon {
+      font-size: 30px;
+    }
+  }
+}
+
+}

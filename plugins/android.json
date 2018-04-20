@@ -1,0 +1,81 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "card.io.cordova.mobilesdk": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "com.hutchind.cordova.plugins.streamingmedia": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "com.moust.cordova.videoplayer": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "com.synconset.imagepicker": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "548230068871334",
+      "APP_NAME": "UDog",
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyCftd2hqIQL0fY61Lijweje-VSUL_2HDas",
+      "PLAY_SERVICES_VERSION": "12.0.0",
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-googleplus": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-ios-camera-permissions": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-stripe": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.udogapp.com"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"ProjectName": "udog-ionic",
+	"ProjectPath": "/Users/udog/Documents/udog-ionic",
+	"SourceDir": "src",
+	"DistributionDir": "build",
+	"BuildCommand": "npm run-script build",
+	"StartCommand": "npm run-script start",
+	"InitializationTime": "2018-01-10-12-10-24",
+	"LastConfigurationTime": "2018-01-10-12-10-38",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendFormat": "yml",
+	"BackendLastBuildTime": "",
+	"BackendLastUpdateTime": "",
+	"BackendLastUpdateSuccessful": false,
+	"BackendProjectID": "aa89a59c-0e76-4bf6-92f4-5f5939b9beee",
+	"BackendProjectName": "UdogApp",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/aa89a59c-0e76-4bf6-92f4-5f5939b9beee/build",
+	"BackendProjectCreationTime": "2018-01-10T16:49:37.745Z",
+	"BackendProjectLastUpdatedTime": "2018-01-10T16:57:04.901Z"
+}
